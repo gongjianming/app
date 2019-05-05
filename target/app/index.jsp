@@ -1,24 +1,18 @@
 <html>
+<meta charset="UTF-8">
 <head>Jimmy's Blog</head>
 <body>
-<%--<h2>Hello World!</h2>--%>
-<h2>This is my Blog!</h2>
-<input type="submit" name="submit" onclick="open()">
-
+<h2>This is Jimmy's Blog!</h2>
+<a href="pages/aboutMe.jsp">About Jimmy</a>
+<%--<input type="button" value="MORE" onclick="aboutMe()">--%>
 <script language=javascript>
 
-    fuction open(){
-
-        if(!document.form_name.username.value) {
-
-            alert("请输入用户名！"); document.form_name.username.focus();
-            return false;
-
-        }else document.form_name.action="aaa.htm";
-
-    }
+    // function aboutMe(){
+    //     document.forms.action="pages/aboutMe.jsp"
+    //     document.frm1.submit()
+    //
+    // }
 
 </script>
-<link href=”css/regist.css”>
 </body>
 </html>

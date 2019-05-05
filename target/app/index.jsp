@@ -2,7 +2,7 @@
 <head>Jimmy's Blog</head>
 <body>
 <%--<h2>Hello World!</h2>--%>
-<h2>This is Jimmy's Blog!</h2>
+<h2>This is my Blog!</h2>
 <input type="submit" name="submit" onclick="open()">
 
 <script language=javascript>
